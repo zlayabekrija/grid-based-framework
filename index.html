@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./frame.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
         crossorigin="anonymous">
-    <title>Document</title>
+    <title>CSS Framework</title>
 </head>
 
 <body>
@@ -54,8 +54,9 @@
                     <li class="h-nav-items">Link 2</li>
                     <li class="h-nav-items">Link 3</li>
                 </ul>
+                <div class="clearfix"></div>
             </nav>
-            <div class="clearfix"></div>
+
         </div>
         <div class="box">
             <nav class="h-navbar">
@@ -71,8 +72,9 @@
                     <li class="h-nav-items">Link 3</li>
                     <li class="h-nav-items">Link 4</li>
                 </ul>
+                <div class="clearfix"></div>
             </nav>
-            <div class="clearfix"></div>
+
         </div>
         <!-- Horizontal navbar end -->
         <!-- Responsive Navbar -->
@@ -86,27 +88,88 @@
                     <li class="h-nav-items">Link 2</li>
                     <li class="h-nav-items">Link 3</li>
                 </ul>
-                <div class="button"><i class="fas fa-bars"></i></div>
+                <div class="button">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="clearfix"></div>
             </nav>
-            <div class="clearfix"></div>
         </div>
         <div class="box">
             <nav class="h-navbar">
                 <div class="h-brand left">
                     LOGO
                 </div>
-                <ul class="h-nav-links md">
-                    <li class="h-nav-items">Link 1</li>
-                    <li class="h-nav-items">Link 2</li>
-                    <li class="h-nav-items">Link 3</li>
-                    <input type="text" name="search" placeholder="Search">
-                    <button><i class="fas fa-search"></i></button>
-                </ul>
-                 <div class="button"><i class="fas fa-bars"></i></div>
+                <div class="h-nav-links md d-inline-block">
+                    <ul class="d-inline-block">
+                        <li class="h-nav-items">Link 1</li>
+                        <li class="h-nav-items">Link 2</li>
+                        <li class="h-nav-items">Link 3</li>
+                    </ul>
+                    <div class="d-inline-block">
+                        <input class="p-5" type="text" name="search" placeholder="Search">
+                        <button class="btn-search mr-5 pb-5"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="button ee">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="clearfix"></div>
             </nav>
-            <div class="clearfix"></div>
+
         </div>
         <!-- End of responsive navbar -->
+
+        <!-- Dark Navbar Start -->
+        <div class="box">
+            <nav class="h-navbar dark">
+                <div class="h-brand left">
+                    LOGO
+                </div>
+                <div class="h-nav-links md d-inline-block">
+                    <ul class="d-inline-block">
+                        <li class="h-nav-items">Link 1</li>
+                        <li class="h-nav-items">Link 2</li>
+                        <li class="h-nav-items">Link 3</li>
+                    </ul>
+                    <div class="d-inline-block">
+                        <input class="p-5" type="text" name="search" placeholder="Search">
+                        <button class="btn-search mr-5 pb-5"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="button ee">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="clearfix"></div>
+            </nav>
+
+        </div>
+        <!-- Dark Navbar Ends -->
+
+        <!-- Blue Navbar Start -->
+        <div class="box">
+            <nav class="h-navbar blue">
+                <div class="h-brand left">
+                    LOGO
+                </div>
+                <div class="h-nav-links md d-inline-block">
+                    <ul class="d-inline-block">
+                        <li class="h-nav-items">Link 1</li>
+                        <li class="h-nav-items">Link 2</li>
+                        <li class="h-nav-items">Link 3</li>
+                    </ul>
+                    <div class="d-inline-block">
+                        <input class="p-5" type="text" name="search" placeholder="Search">
+                        <button class="btn-search mr-5 pb-5"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="button ee">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="clearfix"></div>
+            </nav>
+
+        </div>
+        <!-- Blue Navbar Ends -->
     </div>
 </body>
 
