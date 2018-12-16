@@ -731,7 +731,7 @@ body {
 }
 
 input {
-    border-radius: 3px solid gray;
+    border-radius: 3px solid #aaaaaa;
 }
 
 .search {
