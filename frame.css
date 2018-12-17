@@ -617,6 +617,10 @@ body {
 
 .round {
     border-radius: 3px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
@@ -686,7 +690,7 @@ body {
 }
 
 .h-nav-links {
-    line-height: 25px;
+    line-height: 20px;
     padding-left: 15px;
     color: #b3b2b2;
     font-size: .9rem;
@@ -734,7 +738,10 @@ body {
 }
 
 input {
-    border-radius: 3px solid #aaaaaa;
+    border: 1px solid #aaaaaa;
+    border-radius: 3px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
 }
 
 .search {
@@ -743,7 +750,7 @@ input {
 }
 
 .btn-search {
-    padding: 6px;
+    padding: 4px;
     margin-left: -4px;
     border-left: none;
 }
@@ -956,24 +963,32 @@ h2 {
 }
 
 .fc-inline {
-    width: 80%;
+    width: 90%;
     margin: auto;
     border-radius: 3px;
     border: 1px solid #aaaaaa;
-    padding-bottom: 10px;
+    padding: 5px 0;
+    display: inline-block;
+}
+.form-inline-parent {
+    min-width: 75%;
 }
 
 .sb-inline {
     background-color: #ffffff;
     border-radius: 3px;
     margin-left: -10px;
-    padding-bottom: 10px;
+    padding: 5px 0;
     border: 1px solid #aaaaaa;
+    display: inline-block;
+    width: 10%;
 }
 
 .form-inline {
-    width: 80%;
+    max-width: 75%;
     margin: auto;
+    display: flex;
+    justify-content: center;
 }
 
 .inline-button {
@@ -981,6 +996,7 @@ h2 {
     border-radius: 2px;
     border: 1px solid #aaaaaa;
     background-color: #FFFFFF;
+    padding: 5px 0;
 
 }
 
@@ -1058,6 +1074,7 @@ h2 {
 
 .white {
     background-color: #ffffff !important;
+    color: #000000 !important;
 }
 
 .black {
@@ -1279,4 +1296,24 @@ code {
 
 .default-color {
     color: #5f5d5d;
+}
+.header-1 {
+    border: 0 !important;
+    border-radius: 0 !important;
+    background-color: #5d69f9 !important;
+    justify-content: center;
+    display: flex;
+}
+.header-2 {
+    border: 0 !important;
+    border-radius: 0 !important;
+    text-align: center;
+    height: 20vh;
+    align-items: center;
+    display: flex;
+    background-color: #7e7eff !important;
+}
+.g-logo {
+    color: #000;
+    font-size: 2em;
 }
