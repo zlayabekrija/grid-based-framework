@@ -493,11 +493,11 @@ html {
 }
 
 .f-left {
-    float: left;
+    float: left !important;
 }
 
 .f-right {
-    float: right;
+    float: right !important;
 }
 
 .clearfix {
@@ -522,6 +522,10 @@ html {
 
 .jc-flex-end {
     justify-content: flex-end;
+}
+
+.ai-center {
+    align-items: center;
 }
 
 .jc-flex-center {
@@ -591,6 +595,7 @@ html {
 .br-5 {
     border-radius: 5px;
 }
+
 .b-round {
     border-radius: 50%;
 }
@@ -607,11 +612,13 @@ body {
     border: 1px solid #ccc;
     border-radius: 2px;
     box-sizing: border-box;
-
+    padding: 35px;
 }
+
 .round {
     border-radius: 3px;
 }
+
 .container {
     width: 90%;
     padding-left: 15px;
@@ -681,7 +688,7 @@ body {
 .h-nav-links {
     line-height: 25px;
     padding-left: 15px;
-    color: #535353;
+    color: #b3b2b2;
     font-size: .9rem;
     float: right;
 }
@@ -698,10 +705,6 @@ body {
     transition-duration: .4s;
     font-weight: 600;
     transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
-}
-
-.left {
-    float: left !important;
 }
 
 .button {
@@ -882,18 +885,21 @@ h2 {
     border: 1px solid #aaa;
     border-radius: 5px;
     margin: 10px 0;
-    padding-bottom: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    /* padding-bottom: 15px; */
+
 }
 
 /* --------------------------------Grid end----------------------------------------*/
 
 /* --------------------------------Form start----------------------------------------*/
 .form {
-    width: 90%;
+    max-width: 75%;
     margin: auto;
     border-radius: 5px;
     border: 1px solid #aaa;
-    padding: 5px;
+    padding: 5px 20px;
 }
 
 .check {
@@ -911,17 +917,17 @@ h2 {
     width: 100%;
     margin: 15px 0;
     border-radius: 5px;
-    padding-bottom: 10px;
+    padding: 5px 0;
     background-color: #ffffff;
     font-size: 1.1rem;
 }
 
 .form-theme {
-    width: 90%;
+    max-width: 75%;
     margin: auto;
     border-radius: 5px;
     border: 1px solid #aaa;
-    padding: 5px;
+    padding: 5px 20px;
     background-color: #001f3f;
     color: #0074d9;
 }
@@ -969,18 +975,20 @@ h2 {
     width: 80%;
     margin: auto;
 }
+
 .inline-button {
     width: 50%;
-    border-radius:2px;
-    border:1px solid #aaaaaa;
+    border-radius: 2px;
+    border: 1px solid #aaaaaa;
     background-color: #FFFFFF;
-    
+
 }
+
 .buttons {
     width: 100%;
     margin: auto;
     display: flex;
-    
+
 }
 
 /* --------------------------------Form end----------------------------------------*/
@@ -988,223 +996,287 @@ h2 {
 /* --------------------------------Themes end----------------------------------------*/
 .navy {
     background-color: #000080 !important;
+    color: #fff;
 }
+
 .green {
     background-color: #00ff00 !important;
 }
+
 .maroon {
     background-color: #b03060 !important;
 }
+
 .blue {
     background-color: #0000ff !important;
+    color: #fff;
 }
+
 .lime {
     background-color: #bfff00 !important;
 }
+
 .funchsia {
     background-color: #f012be !important;
 }
+
 .aqua {
     background-color: #7fdbff !important;
 }
+
 .yellow {
     background-color: #ffdc00 !important;
 }
+
 .purple {
     background-color: #b10dc9 !important;
 }
+
 .teal {
     background-color: #39cccc !important;
 }
+
 .orange {
     background-color: #ff851b !important;
 }
+
 .gray {
     background-color: #aaaaaa !important;
 }
+
 .olive {
     background-color: #3d9970 !important;
 }
+
 .red {
     background-color: #ff0000 !important;
 }
+
 .silver {
     background-color: #dddddd !important;
 }
+
 .white {
     background-color: #ffffff !important;
 }
+
 .black {
     background-color: #000000 !important;
+    color: #fff !important;
 }
 
-                /* themes start */
-                
+/* themes start */
+
 .navy-theme {
     background-color: #001f3f !important;
     border-color: #001f3f !important;
     color: #80bfff !important;
 }
+
 .green-theme {
     background-color: #2ecc40 !important;
     border-color: #2ecc40 !important;
     color: #0e3e14 !important;
 }
+
 .maroon-theme {
     background-color: #85144b !important;
     border-color: #85144b !important;
     color: #eb7ab1 !important;
 }
+
 .blue-theme {
     background-color: #0074d9 !important;
     border-color: #0074d9 !important;
     color: #b3dbff !important;
 }
+
 .lime-theme {
     background-color: #01ff70 !important;
     border-color: #01ff70 !important;
     color: #00662c !important;
 }
+
 .funchsia-theme {
     background-color: #f012be !important;
     border-color: #f012be !important;
     color: #65064f !important;
 }
+
 .aqua-theme {
     background-color: #7fdbff !important;
     border-color: #7fdbff !important;
     color: #004966 !important;
 }
+
 .yellow-theme {
     background-color: #ffdc00 !important;
     border-color: #ffdc00 !important;
     color: #665800 !important;
 }
+
 .purple-theme {
     background-color: #b10dc9 !important;
     border-color: #b10dc9 !important;
     color: #efa9f9 !important;
 }
+
 .teal-theme {
     background-color: #39cccc !important;
     border-color: #39cccc !important;
     color: #000 !important;
 }
+
 .orange-theme {
     background-color: #ff851b !important;
     border-color: #ff851b !important;
     color: #663000 !important;
 }
+
 .gray-theme {
     background-color: #aaaaaa !important;
     border-color: #aaaaaa !important;
     color: #000000 !important;
 }
+
 .olive-theme {
     background-color: #3d9970 !important;
     border-color: #3d9970 !important;
     color: #163728 !important;
 }
+
 .red-theme {
     background-color: #ff4136 !important;
     border-color: #ff4136 !important;
     color: #800600 !important;
 }
+
 .silver-theme {
     background-color: #dddddd !important;
     border-color: #dddddd !important;
     color: #000000 !important;
 }
+
 .white-theme {
     background-color: #ffffff !important;
     border-color: #ffffff !important;
     color: #111111 !important;
 }
+
 .black-theme {
     background-color: #111111 !important;
     border-color: #111111 !important;
     color: #ffffff !important;
 }
+
 .navy-theme:hover {
     background-color: #0051a5 !important;
     border-color: #001f3f;
     text-shadow: 1px 1px #001f3f;
 }
+
 .blue-theme:hover {
     background-color: #40a6ff !important;
     border-color: #0074d9;
     text-shadow: 1px 1px #0074d9;
 }
+
 .aqua-theme:hover {
     background-color: #e5f8ff !important;
     border-color: #7fdbff;
     text-shadow: 1px 1px #7fdbff;
 }
+
 .teal-theme:hover {
     background-color: #8ae1e1 !important;
     border-color: #39cccc;
     text-shadow: 1px 1px #39cccc;
 }
+
 .olive-theme:hover {
     background-color: #74c8a3 !important;
     border-color: #3d9970;
     text-shadow: 1px 1px #3d9970;
 }
+
 .green-theme:hover {
     background-color: #7ee289 !important;
     border-color: #2ecc40;
     text-shadow: 1px 1px #2ecc40;
 }
+
 .lime-theme:hover {
     background-color: #67ffa9 !important;
     border-color: #01ff70;
     text-shadow: 1px 1px #01ff70;
 }
+
 .yellow-theme:hover {
     background-color: #ffea66 !important;
     border-color: #ffdc00;
     text-shadow: 1px 1px #ffdc00;
 }
+
 .orange-theme:hover {
     background-color: #ffbc81 !important;
     border-color: #ff851b;
     text-shadow: 1px 1px #ff851b;
 }
+
 .red-theme:hover {
     background-color: #ffa19c !important;
     border-color: #ff4136;
     text-shadow: 1px 1px #ff4136;
 }
+
 .maroon-theme:hover {
     background-color: #de217d !important;
     border-color: #85144b;
     text-shadow: 1px 1px #85144b;
 }
+
 .funchsia-theme:hover {
     background-color: #f672d8 !important;
     border-color: #f012be;
     text-shadow: 1px 1px #f012be;
 }
+
 .purple-theme:hover {
     background-color: #dd49f3 !important;
     border-color: #b10dc9;
     text-shadow: 1px 1px #b10dc9;
 }
+
 .gray-theme:hover {
     background-color: #dddddd !important;
     border-color: #aaaaaa;
     text-shadow: 1px 1px #aaaaaa;
 }
+
 .silver-theme:hover {
     background-color: #ffffff !important;
     border-color: #dddddd;
     text-shadow: 1px 1px #dddddd;
 }
+
 .white-theme:hover {
     color: #ffffff !important;
     background-color: #111111 !important;
 }
+
 .black-theme:hover {
     color: #111111 !important;
     background-color: #ffffff !important;
+}
+
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+    padding: 0 3px;
+    color: brown;
+}
+
+.default-color {
+    color: #5f5d5d;
 }

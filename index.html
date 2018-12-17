@@ -13,29 +13,38 @@
 
 <body>
     <header>
-        <nav class="h-navbar navy-theme">
-            <div class="h-brand">FRAMES</div>
-            <div class="h-nav-links">Github</div>
-            <div class="clearfix"></div>
+        <nav class="h-navbar navy">
+            <div class="container">
+                <div class="h-brand">FRAMES</div>
+                <div class="h-nav-links">Github</div>
+                <div class="clearfix"></div>
+            </div>
+
         </nav>
     </header>
-    <div class="box blue-theme mt-0 p-10">
-        <h2 class="bold-text">The FrAmE</h2>
-        <p class="bold-text mt-10">An CSS Framework</p>
+    <div class="box blue mt-0 p-10">
+        <div class="container">
+            <h2 class="bold-text">The FrAmE</h2>
+            <p class="bold-text mt-10">An CSS Framework</p>
+        </div>
+
     </div>
     <nav class="v-navbar white">
-        <h2 class="bold-text mb-10 p-10">Index</h2>
-        <ul class="v-nav-links">
-            <li class="v-nav-items"><a href="#navbar">Navbars</a></li>
-            <li class="v-nav-items"><a href="#grid">Grid Layout</a></li>
-            <li class="v-nav-items"><a href="#form">Forms</a></li>
-            <li class="v-nav-items"><a href="#colors">Colors</a>& <a href="#themes">Themes</a></li>
-            <li class="v-nav-items"><a href="#border">Borders</a></li>
-            <li class="v-nav-items"><a href="#padding">Paddings</a></li>
-            <li class="v-nav-items"><a href="#margin">Margins</a>
-            </li>
-            <li class="v-nav-items"><a href="#util">Utilities</a></li>
-        </ul>
+        <div class="container">
+            <h2 class="bold-text mb-10 p-10">Index</h2>
+            <ul class="v-nav-links">
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#navbar">Navbars</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#grid">Grid Layout</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#form">Forms</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#colors">Colors</a>& <a href="#themes">Themes</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#border">Borders</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#padding">Paddings</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#margin">Margins</a>
+                </li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#util">Utilities</a></li>
+            </ul>
+        </div>
+
     </nav>
     <div class="container p-0">
         <!-- Vertical Navbar start -->
@@ -58,7 +67,7 @@
                 <div class="h-brand">
                     LOGO H
                 </div>
-                <ul class="h-nav-links">
+                <ul class="h-nav-links default-color">
                     <li class="h-nav-items">Link 1</li>
                     <li class="h-nav-items">Link 2</li>
                     <li class="h-nav-items">Link 3</li>
@@ -71,7 +80,7 @@
                 <div class="h-brand left">
                     LOGO L
                 </div>
-                <ul class="h-nav-links left">
+                <ul class="h-nav-links left default-color">
                     <li class="h-nav-items">Link 1</li>
                     <li class="h-nav-items">Link 2</li>
                     <li class="h-nav-items">Link 3</li>
@@ -82,15 +91,15 @@
         </div>
         <div class="box mb-10 mt-10">
             <nav class="h-navbar">
-                <div class="h-brand left">
+                <div class="h-brand f-left">
                     LOGO S
                 </div>
-                <ul class="h-nav-links left">
+                <ul class="h-nav-links f-left default-color">
                     <li class="h-nav-items">Link 1</li>
                     <li class="h-nav-items">Link 2</li>
                 </ul>
 
-                <ul class="h-nav-links">
+                <ul class="h-nav-links default-color">
                     <li class="h-nav-items">Link 3</li>
                     <li class="h-nav-items">Link 4</li>
                 </ul>
@@ -105,7 +114,7 @@
                 <div class="h-brand left">
                     LOGO R
                 </div>
-                <ul class="md h-nav-links">
+                <ul class="md h-nav-links default-color">
                     <li class="h-nav-items">Link 1</li>
                     <li class="h-nav-items">Link 2</li>
                     <li class="h-nav-items">Link 3</li>
@@ -122,14 +131,14 @@
                     LOGO
                 </div>
                 <div class="h-nav-links md d-inline-block">
-                    <ul class="d-inline-block">
+                    <ul class="d-inline-block default-color">
                         <li class="h-nav-items">Link 1</li>
                         <li class="h-nav-items">Link 2</li>
                         <li class="h-nav-items">Link 3</li>
                     </ul>
                     <div class="d-inline-block">
                         <input class="p-5" type="text" name="search" placeholder="Search">
-                        <button class="btn-search mr-5 pb-5"><i class="fas fa-search"></i></button>
+                        <button class="btn-search mr-5"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
                 <div class="button">
@@ -143,7 +152,7 @@
 
         <!-- Dark Navbar Start -->
         <div class="box mt-10 mb-10">
-            <nav class="h-navbar black-theme">
+            <nav class="h-navbar black">
                 <div class="h-brand left">
                     LOGO
                 </div>
@@ -155,7 +164,7 @@
                     </ul>
                     <div class="d-inline-block">
                         <input class="p-5" type="text" name="search" placeholder="Search">
-                        <button class="btn-search mr-5 pb-5"><i class="fas fa-search"></i></button>
+                        <button class="btn-search mr-5"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
                 <div class="button">
@@ -169,7 +178,7 @@
 
         <!-- Blue Navbar Start -->
         <div class="box mt-10 mb-10">
-            <nav class="h-navbar blue-theme">
+            <nav class="h-navbar blue">
                 <div class="h-brand left">
                     LOGO
                 </div>
@@ -181,7 +190,7 @@
                     </ul>
                     <div class="d-inline-block">
                         <input class="p-5" type="text" name="search" placeholder="Search">
-                        <button class="btn-search mr-5 pb-5"><i class="fas fa-search"></i></button>
+                        <button class="btn-search mr-5"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
                 <div class="button">
@@ -194,7 +203,7 @@
         <!-- Blue Navbar Ends -->
         <!-- Themed navbar start -->
         <div class="box mb-10 mt-10">
-            <nav class="h-navbar navy-theme">
+            <nav class="h-navbar navy">
                 <div class="h-brand left">
                     LOGO
                 </div>
@@ -206,7 +215,7 @@
                     </ul>
                     <div class="d-inline-block">
                         <input class="p-5" type="text" name="search" placeholder="Search">
-                        <button class="btn-search mr-5 pb-5"><i class="fas fa-search"></i></button>
+                        <button class="btn-search mr-5"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
                 <div class="button">
@@ -219,7 +228,7 @@
         <!-- Themed navbar end -->
         <!-- Themed responsive navbar -->
         <div class="box mb-10 mt-10">
-            <nav class="h-navbar navy-theme">
+            <nav class="h-navbar navy">
                 <div class="h-brand left">
                     LOGO
                 </div>
@@ -231,7 +240,7 @@
                     </ul>
                     <div class="d-inline-block md">
                         <input class="p-5" type="text" name="search" placeholder="Search">
-                        <button class="btn-search mr-5 pb-5"><i class="fas fa-search"></i></button>
+                        <button class="btn-search mr-5"><i class="fas fa-search"></i></button>
                     </div>
                 </div>
                 <div class="button">
@@ -249,44 +258,44 @@
             <b class="bold-text">Columns</b>
             <div class="columns">
                 <div class="row">
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
-                    <div class="col-1">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
                 </div>
                 <div class="row">
-                    <div class="col-2">2</div>
-                    <div class="col-2">2</div>
-                    <div class="col-2">2</div>
-                    <div class="col-2">2</div>
-                    <div class="col-2">2</div>
-                    <div class="col-2">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
                 </div>
                 <div class="row">
-                    <div class="col-3">3</div>
-                    <div class="col-3">3</div>
-                    <div class="col-3">3</div>
-                    <div class="col-3">3</div>
+                    <div class="col-3 d-flex jc-flex-center ai-center">3</div>
+                    <div class="col-3 d-flex jc-flex-center ai-center">3</div>
+                    <div class="col-3 d-flex jc-flex-center ai-center">3</div>
+                    <div class="col-3 d-flex jc-flex-center ai-center">3</div>
                 </div>
                 <div class="row">
-                    <div class="col-4">4</div>
-                    <div class="col-4">4</div>
-                    <div class="col-4">4</div>
+                    <div class="col-4 d-flex jc-flex-center ai-center">4</div>
+                    <div class="col-4 d-flex jc-flex-center ai-center">4</div>
+                    <div class="col-4 d-flex jc-flex-center ai-center">4</div>
                 </div>
                 <div class="row">
-                    <div class="col-6">6</div>
-                    <div class="col-6">6</div>
+                    <div class="col-6 d-flex jc-flex-center ai-center">6</div>
+                    <div class="col-6 d-flex jc-flex-center ai-center">6</div>
                 </div>
                 <div class="row">
-                    <div class="col-12">12</div>
+                    <div class="col-12 d-flex jc-flex-center ai-center">12</div>
                 </div>
             </div>
         </div>
@@ -295,7 +304,7 @@
             <h2 class="bold-text">Offset</h2>
             <div class="columns">
                 <div class="row mb-10">
-                    <div class="col-4 col-4-offset">Column size 4 with an offset 4</div>
+                    <div class="col-4 col-4-offset d-flex jc-flex-center ai-center">Column size 4 with an offset 4</div>
                 </div>
             </div>
         </div>
@@ -381,7 +390,7 @@
         </div>
         <!-- Forms end -->
         <!-- Colors and Themes -->
-        <div class="box mb-10 mt-10 p-10" id="colors">
+        <div class="box mb-10 mt-10" id="colors">
             <h2 class="bold-text">
                 Colors</h2>
 
@@ -418,7 +427,7 @@
             </div>
 
         </div>
-        <div class="box mb-10 mt-10 p-10" id="themes">
+        <div class="box mb-10 mt-10 " id="themes">
             <h2 class="bold-text">
                 Themes</h2>
 
@@ -546,49 +555,54 @@
             </h2>
             <p class="bold-text p-10"> Display properties</p>
             <ul class="box b-0 p-10">
-                <li class="mb-5">Block - d-block or d-b</li>
-                <li class="mb-5">Inline - d-inline or d-i</li>
-                <li class="mb-5">Inline Block - d-inline-block or d-i </li>
-                <li class="mb-5">Flex - d-flex or d-f</li>
-                <li class="mb-5">None - d-one</li>
+                <li class="mb-5">Block - <code>d-block</code> or <code> d-b</code></li>
+                <li class="mb-5">Inline - <code> d-inline</code> or <code>d-i</code> </li>
+                <li class="mb-5">Inline Block - <code>d-inline-block</code> or <code> d-i</code> </li>
+                <li class="mb-5">Flex - <code>d-flex</code> or <code>d-f</code> </li>
+                <li class="mb-5">None - <code>d-one</code> </li>
             </ul>
             <p class="bold-text p-10"> Float properties</p>
             <ul class="box b-0 p-10">
-                <li class="mb-5 f-left">Float left - f-left</li>
-                <li class="mb-5 f-right">Float right - f-right</li>
-                <li class="mb-5 clearfix">Clear float - clearfix</li>
+                <li class="mb-5">Float left - <code>f-left</code> </li>
+                <li class="mb-5 ">Float right - <code>f-right</code> </li>
+                <li class="mb-5">Clear float - <code>clearfix</code> </li>
             </ul>
             <p class="bold-text p-10"> Text properties</p>
             <ul class="box b-0 p-10">
-                <li class="mb-5 left">Align left - left</li>
-                <li class="mb-5 right">Align right - right</li>
-                <li class="mb-5 center">Align center - center</li>
+                <li class="mb-5">Align left - <code>left</code> </li>
+                <li class="mb-5">Align right - <code>right</code> </li>
+                <li class="mb-5">Align center - <code>center</code> </li>
             </ul>
             <p class="bold-text p-10"> Flexbox properties</p>
             <ul class="box b-0 p-10">
-                <li class="mb-5">Justify center - jc-flex-center</li>
-                <li class="mb-5">Justify start - jc-flex-start</li>
-                <li class="mb-5">Justify end - jc-flex-end</li>
-                <li class="mb-5">Justify space around - jc-space-around</li>
-                <li class="mb-5">Justify space between - jc-space-between</li>
+                <li class="mb-5">Justify center - <code>jc-flex-center</code> </li>
+                <li class="mb-5">Justify start - <code>jc-flex-start</code> </li>
+                <li class="mb-5">Justify end - <code>jc-flex-end</code> </li>
+                <li class="mb-5">Justify space around - <code>jc-space-around</code> </li>
+                <li class="mb-5">Justify space between - <code>jc-space-between</code> </li>
             </ul>
             <p class="bold-text p-10"> Flex direction properties</p>
             <ul class="box b-0 p-10">
-                <li class="mb-5">Flex directon row - fd-row</li>
-                <li class="mb-5">Flex direction column - fd-col</li>
-                <li class="mb-5">Flex wrap - f-wrap</li>
-                <li class="mb-5">Flex no wrap - f-nowrap</li>
-                <li class="mb-5">Flex grow - f-grow-[1 or 0]</li>
-                <li class="mb-5">Flex shrink - f-shrink-[1 or 0]</li>
+                <li class="mb-5">Flex directon row - <code>fd-row</code> </li>
+                <li class="mb-5">Flex direction column - <code>fd-col</code> </li>
+                <li class="mb-5">Flex wrap - <code>f-wrap</code> </li>
+                <li class="mb-5">Flex no wrap - <code>f-nowrap</code> </li>
+                <li class="mb-5">Flex grow - <code>f-grow-[1 or 0]</code> </li>
+                <li class="mb-5">Flex shrink - <code>f-shrink-[1 or 0]</code> </li>
             </ul>
             <p class="bold-text p-10"> Border radius properties</p>
             <ul class="box b-0 p-10">
-                <li class="mb-5">Border radius - br-[1 to 5]</li>
-                <li class="mb-5">Border round - b-round</li>
-                </ul>
+                <li class="mb-5">Border radius - <code>br-[1 to 5]</code> </li>
+                <li class="mb-5">Border round - <code>b-round</code> </li>
+            </ul>
         </div>
 
     </div>
+    <footer>
+        <div class="containter black p-10 mt-10 center">
+            The FrAmE ® Zlatan & Inzi - 2018
+        </div>
+    </footer>
 </body>
 
 </html>
