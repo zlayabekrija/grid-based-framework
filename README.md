@@ -1,6 +1,6 @@
 ##  The FrAmE framework
 
-This project is the collaboration of [Zlatan](https://github.com/zlayabekrija) & [Inzi](https://github.com/inhaq).
+This project is the collaboration of [Zlatan](https://github.com/zlayabekrija) & [Inzi](https://github.com/inhaq). [Preview this project](https://zlayabekrija.github.io/grid-based-framework/)
 
 To enhance and practice our CSS3 knowledge, we made our own full fledged CSS based framework .
 
