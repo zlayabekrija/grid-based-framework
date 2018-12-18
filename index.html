@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./frame.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+    <title>CSS Framework</title>
+</head>
+
+<body>
+    <header>
+        <nav class="header-1 h-navbar navy b-0">
+            <div class="container">
+                <div class="h-brand">FRAMES</div>
+                <div class="h-nav-links"><a href="https://github.com/zlayabekrija/grid-based-framework" target="_blank"><i class="fab fa-github g-logo"></i></a></div>
+                <div class="clearfix"></div>
+            </div>
+
+        </nav>
+    </header>
+    <div class="header-2 box blue mt-0 p-10 b-0">
+        <div class="container">
+            <h2 class="bold-text">The FrAmE</h2>
+            <p class="bold-text mt-10">A CSS Framework</p>
+        </div>
+
+    </div>
+    <nav class="v-navbar white">
+        <div class="container">
+            <h2 class="bold-text mb-10 p-10">Index</h2>
+            <ul class="v-nav-links">
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#navbar">Navbars</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#grid">Grid Layout</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#form">Forms</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#colors">Colors</a>& <a href="#themes">Themes</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#border">Borders</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#padding">Paddings</a></li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#margin">Margins</a>
+                </li>
+                <li class="v-nav-items" style="border-bottom: 0"><a href="#util">Utilities</a></li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="container p-0">
+        <!-- Vertical Navbar start -->
+        <div class="box mb-10 mt-10" id="navbar">
+            <nav class="v-navbar">
+                <div class="v-brand">
+                    LOGO V
+                </div>
+                <ul class="v-nav-links">
+                    <li class="v-nav-items">Link 1</li>
+                    <li class="v-nav-items">Link 2</li>
+                    <li class="v-nav-items">Link 3</li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Vertical Navbar end -->
+        <!-- Horizontal Navbar start -->
+        <div class="box mt-10 mb-10">
+            <nav class="h-navbar">
+                <div class="h-brand">
+                    LOGO H
+                </div>
+                <ul class="h-nav-links default-color">
+                    <li class="h-nav-items">Link 1</li>
+                    <li class="h-nav-items">Link 2</li>
+                    <li class="h-nav-items">Link 3</li>
+                </ul>
+            </nav>
+            <div class="clearfix"></div>
+        </div>
+        <div class="box mt-10 mb-10">
+            <nav class="h-navbar">
+                <div class="h-brand left">
+                    LOGO L
+                </div>
+                <ul class="h-nav-links left default-color">
+                    <li class="h-nav-items">Link 1</li>
+                    <li class="h-nav-items">Link 2</li>
+                    <li class="h-nav-items">Link 3</li>
+                </ul>
+                <div class="clearfix"></div>
+            </nav>
+
+        </div>
+        <div class="box mb-10 mt-10">
+            <nav class="h-navbar">
+                <div class="h-brand f-left">
+                    LOGO S
+                </div>
+                <ul class="h-nav-links f-left default-color">
+                    <li class="h-nav-items">Link 1</li>
+                    <li class="h-nav-items">Link 2</li>
+                </ul>
+
+                <ul class="h-nav-links default-color">
+                    <li class="h-nav-items">Link 3</li>
+                    <li class="h-nav-items">Link 4</li>
+                </ul>
+                <div class="clearfix"></div>
+            </nav>
+
+        </div>
+        <!-- Horizontal navbar end -->
+        <!-- Responsive Navbar -->
+        <div class="box mt-10 mb-10">
+            <nav class="h-navbar">
+                <div class="h-brand left">
+                    LOGO R
+                </div>
+                <ul class="md h-nav-links default-color">
+                    <li class="h-nav-items">Link 1</li>
+                    <li class="h-nav-items">Link 2</li>
+                    <li class="h-nav-items">Link 3</li>
+                </ul>
+                <div class="button">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="clearfix"></div>
+            </nav>
+        </div>
+        <div class="box mt-10 mb-10">
+            <nav class="h-navbar">
+                <div class="h-brand left">
+                    LOGO
+                </div>
+                <div class="h-nav-links md d-inline-block">
+                    <ul class="d-inline-block default-color">
+                        <li class="h-nav-items">Link 1</li>
+                        <li class="h-nav-items">Link 2</li>
+                        <li class="h-nav-items">Link 3</li>
+                    </ul>
+                    <div class="d-inline-block">
+                        <input class="p-5" type="text" name="search" placeholder="Search">
+                        <button class="btn-search mr-5"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="button">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="clearfix"></div>
+            </nav>
+
+        </div>
+        <!-- End of responsive navbar -->
+
+        <!-- Dark Navbar Start -->
+        <div class="box mt-10 mb-10">
+            <nav class="h-navbar black">
+                <div class="h-brand left">
+                    LOGO
+                </div>
+                <div class="h-nav-links md d-inline-block">
+                    <ul class="d-inline-block">
+                        <li class="h-nav-items">Link 1</li>
+                        <li class="h-nav-items">Link 2</li>
+                        <li class="h-nav-items">Link 3</li>
+                    </ul>
+                    <div class="d-inline-block">
+                        <input class="p-5" type="text" name="search" placeholder="Search">
+                        <button class="btn-search mr-5"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="button">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="clearfix"></div>
+            </nav>
+
+        </div>
+        <!-- Dark Navbar Ends -->
+
+        <!-- Blue Navbar Start -->
+        <div class="box mt-10 mb-10">
+            <nav class="h-navbar blue">
+                <div class="h-brand left">
+                    LOGO
+                </div>
+                <div class="h-nav-links md d-inline-block">
+                    <ul class="d-inline-block">
+                        <li class="h-nav-items">Link 1</li>
+                        <li class="h-nav-items">Link 2</li>
+                        <li class="h-nav-items">Link 3</li>
+                    </ul>
+                    <div class="d-inline-block">
+                        <input class="p-5" type="text" name="search" placeholder="Search">
+                        <button class="btn-search mr-5"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="button">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="clearfix"></div>
+            </nav>
+
+        </div>
+        <!-- Blue Navbar Ends -->
+        <!-- Themed navbar start -->
+        <div class="box mb-10 mt-10">
+            <nav class="h-navbar navy">
+                <div class="h-brand left">
+                    LOGO
+                </div>
+                <div class="h-nav-links md d-inline-block">
+                    <ul class="d-inline-block">
+                        <li class="h-nav-items">Link 1</li>
+                        <li class="h-nav-items">Link 2</li>
+                        <li class="h-nav-items">Link 3</li>
+                    </ul>
+                    <div class="d-inline-block">
+                        <input class="p-5" type="text" name="search" placeholder="Search">
+                        <button class="btn-search mr-5"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="button">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="clearfix"></div>
+            </nav>
+
+        </div>
+        <!-- Themed navbar end -->
+        <!-- Themed responsive navbar -->
+        <div class="box mb-10 mt-10">
+            <nav class="h-navbar navy">
+                <div class="h-brand left">
+                    LOGO
+                </div>
+                <div class="h-nav-links md d-inline-block">
+                    <ul class="d-inline-block">
+                        <li class="h-nav-items">Link 1</li>
+                        <li class="h-nav-items">Link 2</li>
+                        <li class="h-nav-items">Link 3</li>
+                    </ul>
+                    <div class="d-inline-block md">
+                        <input class="p-5" type="text" name="search" placeholder="Search">
+                        <button class="btn-search mr-5"><i class="fas fa-search"></i></button>
+                    </div>
+                </div>
+                <div class="button">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="clearfix"></div>
+            </nav>
+            <div class="clearix"></div>
+        </div>
+        <!-- Themed responsve navbar end -->
+
+        <!-- Grid start -->
+        <div class="box mt-10 mb-10" id="grid">
+            <h2 class="bold-text">Grid</h2>
+            <b class="bold-text">Columns</b>
+            <div class="columns">
+                <div class="row">
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                    <div class="col-1 d-flex jc-flex-center ai-center">1</div>
+                </div>
+                <div class="row">
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                    <div class="col-2 d-flex jc-flex-center ai-center">2</div>
+                </div>
+                <div class="row">
+                    <div class="col-3 d-flex jc-flex-center ai-center">3</div>
+                    <div class="col-3 d-flex jc-flex-center ai-center">3</div>
+                    <div class="col-3 d-flex jc-flex-center ai-center">3</div>
+                    <div class="col-3 d-flex jc-flex-center ai-center">3</div>
+                </div>
+                <div class="row">
+                    <div class="col-4 d-flex jc-flex-center ai-center">4</div>
+                    <div class="col-4 d-flex jc-flex-center ai-center">4</div>
+                    <div class="col-4 d-flex jc-flex-center ai-center">4</div>
+                </div>
+                <div class="row">
+                    <div class="col-6 d-flex jc-flex-center ai-center">6</div>
+                    <div class="col-6 d-flex jc-flex-center ai-center">6</div>
+                </div>
+                <div class="row">
+                    <div class="col-12 d-flex jc-flex-center ai-center">12</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="box mt-10 mb-10">
+            <h2 class="bold-text">Offset</h2>
+            <div class="columns">
+                <div class="row mb-10">
+                    <div class="col-4 col-4-offset d-flex jc-flex-center ai-center">Column size 4 with an offset 4</div>
+                </div>
+            </div>
+        </div>
+        <!-- Grid end -->
+        <!-- Forms start -->
+        <div class="box mt-10 mb-10" id="form">
+            <h2 class="bold-text">
+                FORMS
+            </h2>
+            <b class="bold-text ">Basic Forms</b>
+            <div class="box b-0">
+                <form class="form mb-10" action="/">
+                    <h2 class="form-header">
+                        Sign In
+                    </h2>
+
+                    <label class="bold-text" for="user">Username</label>
+                    <input type="text" class="form-control" name="text" id="user">
+                    <label for="password" class="bold-text">Password</label>
+                    <input type="password" class="form-control" name="password" id="password">
+                    <label for="check">
+                        <input type="checkbox" name="check" id="check">Remember Me
+                    </label>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="box mt-10 mb-10">
+            <h2 class="bold-text">
+                FORMS
+            </h2>
+            <b class="bold-text">Themed Form</b>
+            <div class="box b-0">
+                <form class="form-theme mb-10" action="/">
+                    <h2 class="form-header">
+                        Sign In
+                    </h2>
+
+                    <label class="bold-text" for="user-1">Username</label>
+                    <input type="text" class="form-control" name="text" id="user-1">
+                    <label for="password-1" class="bold-text">Password</label>
+                    <input type="password" class="form-control" name="password" id="password-1">
+                    <label for="check-1">
+                        <input type="checkbox" name="check" id="check-1">Remember Me
+                    </label>
+                    <button type="submit" class="submit-button">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="box mb-10 mt-10">
+            <h2 class="bold-text">
+                FORMS
+            </h2>
+            <b class="bold-text">Inline Form</b>
+            <div class="box b-0">
+               
+                <form class="form-inline mb-10" action="/">
+                    <div class="form-inline-parent">
+                    <input type="text" class="fc-inline" name="text" id="user-2">
+                    <button type="submit" class="sb-inline">Submit</button>
+                    </div>
+                </form>
+                
+            </div>
+        </div>
+        <div class="box mt-10 mb-10">
+            <h2 class="bold-text">
+                FORMS
+            </h2>
+            <b class="bold-text">Inline Buttons</b>
+            <div class="box b-0">
+                <form class="form mb-10" action="/">
+                    <h2 class="form-header">
+                        SUBSCRIBE
+                    </h2>
+
+                    <label class="bold-text" for="user-3">Username</label>
+                    <input type="text" class="form-control" name="text" id="user-3">
+                    <label for="password-3" class="bold-text">Password</label>
+                    <input type="password" class="form-control" name="password" id="password-3">
+                    <div class="buttons mb-10">
+                        <button type="submit" class="inline-button">Submit</button>
+                        <button type="submit" class="inline-button">Reset</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Forms end -->
+        <!-- Colors and Themes -->
+        <div class="box mb-10 mt-10" id="colors">
+            <h2 class="bold-text">
+                Colors</h2>
+
+            <div class="row white">
+                <div class="round col-4 navy">navy</div>
+                <div class="round col-4 green">green</div>
+                <div class="round col-4 maroon">maroon</div>
+            </div>
+            <div class="row white">
+                <div class="round col-4 blue">blue</div>
+                <div class="round col-4 lime">lime</div>
+                <div class="round col-4 funchsia">funchsia</div>
+            </div>
+            <div class="row white">
+                <div class="round col-4 aqua">aqua</div>
+                <div class="round col-4 yellow">yellow</div>
+                <div class="round col-4 purple">purple</div>
+            </div>
+            <div class="row white">
+                <div class="round col-4 teal">teal</div>
+                <div class="round col-4 ornage">ornage</div>
+                <div class="round col-4 gray">gray</div>
+            </div>
+            <div class="row white">
+                <div class="round col-4 olive">olive</div>
+                <div class="round col-4 red">red</div>
+                <div class="round col-4 silver">silver</div>
+            </div>
+            <div class="row white">
+                <div class="round col-12 white">white</div>
+            </div>
+            <div class="row white mb-10">
+                <div class="round col-12 black">black</div>
+            </div>
+
+        </div>
+        <div class="box mb-10 mt-10 " id="themes">
+            <h2 class="bold-text">
+                Themes</h2>
+
+            <div class="row white">
+                <div class="round col-4 navy-theme">navy</div>
+                <div class="round col-4 green-theme">green</div>
+                <div class="round col-4 maroon-theme">maroon</div>
+            </div>
+            <div class="row white">
+                <div class="round col-4 blue-theme">blue</div>
+                <div class="round col-4 lime-theme">lime</div>
+                <div class="round col-4 funchsia-theme">funchsia</div>
+            </div>
+            <div class="row white">
+                <div class="round col-4 aqua-theme">aqua</div>
+                <div class="round col-4 yellow-theme">yellow</div>
+                <div class="round col-4 purple-theme">purple</div>
+            </div>
+            <div class="row white">
+                <div class="round col-4 teal-theme">teal</div>
+                <div class="round col-4 orange-theme">ornage</div>
+                <div class="round col-4 gray-theme">gray</div>
+            </div>
+            <div class="row white">
+                <div class="round col-4 olive-theme">olive</div>
+                <div class="round col-4 red-theme">red</div>
+                <div class="round col-4 silver-theme">silver</div>
+            </div>
+            <div class="row white">
+                <div class="round col-12 white-theme">white</div>
+            </div>
+            <div class="row white mb-10">
+                <div class="round col-12 black-theme">black</div>
+            </div>
+
+        </div>
+        <!-- Colors and Themes end-->
+        <!-- Utilities -->
+        <div class="box mb-10 mt-10" id="border">
+            <h2 class="bold-text">Borders</h2>
+            <div class="box white mt-10 mb-10 b-1 p-10">
+                <div class="box white b-1 p-10 center">Standard border</div>
+            </div>
+            <div class="box whit mt-10 mb-10e b-1 p-10">
+                <div class="box white b-0 p-10 center">No border</div>
+            </div>
+            <div class="box white mt-10 mb-10 b-1 p-10">
+                <div class="box white b-5 p-10 center">Custom width border</div>
+            </div>
+            <div class="box white mt-10 mb-10 b-1 p-10">
+                <div class="box white bt-2 p-10 center">Border top</div>
+            </div>
+            <div class="box white mt-10 mb-10 b-1 p-10">
+                <div class="box white bb-2 p-10 center">Border bottom</div>
+            </div>
+            <div class="box white mt-10 mb-10 b-1 p-10">
+                <div class="box white bl-2 p-10 center">Border left</div>
+            </div>
+            <div class="box white mt-10 mb-10 b-1 p-10">
+                <div class="box white br-2 p-10 center">Border right</div>
+            </div>
+            <div class="box white mt-10 mb-10 b-1 p-10">
+                <div class="box white bt-2 bb-2 p-10 center">Border top & bottom</div>
+            </div>
+            <div class="box white mt-10 mb-10 b-1 p-10">
+                <div class="box white bl-2 br-2 p-10 center">Border left & right</div>
+            </div>
+        </div>
+        <div class="box mb-10 mt-10" id="padding">
+            <h2 class="bold-text">Paddings</h2>
+            <div class="box gray mb-10 mt-10 p-10">
+                <div class="box white center">All sides padding</div>
+            </div>
+            <div class="box gray mb-10 mt-10 pt-10">
+                <div class="box white center">Top padding</div>
+            </div>
+            <div class="box gray mb-10 mt-10 pb-10">
+                <div class="box white center">Bottom padding</div>
+            </div>
+            <div class="box gray mb-10 mt-10 pl-10">
+                <div class="box white center">Left padding</div>
+            </div>
+            <div class="box gray mb-10 mt-10 pr-10">
+                <div class="box white center">Right padding</div>
+            </div>
+            <div class="box gray mb-10 mt-10 pt-10 pb-10">
+                <div class="box white center">Top & Bottom padding</div>
+            </div>
+            <div class="box gray mb-10 mt-10 pl-10 pr-10">
+                <div class="box white center">Left & Right padding</div>
+            </div>
+        </div>
+
+
+        <div class="box mt-10 mb-10" id="margin">
+            <h2 class="bold-text p-10">Margins</h2>
+            <div class="box gray mt-10 mb-10 p-10">
+                <div class="box white center m-10">Auto margin</div>
+            </div>
+            <div class="box gray mt-10 mb-10 p-10">
+                <div class="box white center mt-10">Top margin</div>
+            </div>
+            <div class="box gray mt-10 mb-10 p-10">
+                <div class="box white center mb-10">Bottom margin</div>
+            </div>
+            <div class="box gray mt-10 mb-10 p-10">
+                <div class="box white center ml-10">Left margin</div>
+            </div>
+            <div class="box gray mt-10 mb-10 p-10">
+                <div class="box white center mr-10">Right margin</div>
+            </div>
+            <div class="box gray mt-10 mb-10 p-10">
+                <div class="box white center ml-10 mr-10">L & R margin</div>
+            </div>
+            <div class="box gray mt-10 mb-10 p-10">
+                <div class="box white center mt-10 mb-10">Bottom & Top margin</div>
+            </div>
+
+
+        </div>
+        <!-- Utilites end -->
+        <div class="box p-10 mt-10">
+            <h2 class="bold-text p-10">
+                Utilities
+            </h2>
+            <p class="bold-text p-10"> Display properties</p>
+            <ul class="box b-0 p-10">
+                <li class="mb-5">Block - <code>d-block</code> or <code> d-b</code></li>
+                <li class="mb-5">Inline - <code> d-inline</code> or <code>d-i</code> </li>
+                <li class="mb-5">Inline Block - <code>d-inline-block</code> or <code> d-i</code> </li>
+                <li class="mb-5">Flex - <code>d-flex</code> or <code>d-f</code> </li>
+                <li class="mb-5">None - <code>d-one</code> </li>
+            </ul>
+            <p class="bold-text p-10"> Float properties</p>
+            <ul class="box b-0 p-10">
+                <li class="mb-5">Float left - <code>f-left</code> </li>
+                <li class="mb-5 ">Float right - <code>f-right</code> </li>
+                <li class="mb-5">Clear float - <code>clearfix</code> </li>
+            </ul>
+            <p class="bold-text p-10"> Text properties</p>
+            <ul class="box b-0 p-10">
+                <li class="mb-5">Align left - <code>left</code> </li>
+                <li class="mb-5">Align right - <code>right</code> </li>
+                <li class="mb-5">Align center - <code>center</code> </li>
+            </ul>
+            <p class="bold-text p-10"> Flexbox properties</p>
+            <ul class="box b-0 p-10">
+                <li class="mb-5">Justify center - <code>jc-flex-center</code> </li>
+                <li class="mb-5">Justify start - <code>jc-flex-start</code> </li>
+                <li class="mb-5">Justify end - <code>jc-flex-end</code> </li>
+                <li class="mb-5">Justify space around - <code>jc-space-around</code> </li>
+                <li class="mb-5">Justify space between - <code>jc-space-between</code> </li>
+            </ul>
+            <p class="bold-text p-10"> Flex direction properties</p>
+            <ul class="box b-0 p-10">
+                <li class="mb-5">Flex directon row - <code>fd-row</code> </li>
+                <li class="mb-5">Flex direction column - <code>fd-col</code> </li>
+                <li class="mb-5">Flex wrap - <code>f-wrap</code> </li>
+                <li class="mb-5">Flex no wrap - <code>f-nowrap</code> </li>
+                <li class="mb-5">Flex grow - <code>f-grow-[1 or 0]</code> </li>
+                <li class="mb-5">Flex shrink - <code>f-shrink-[1 or 0]</code> </li>
+            </ul>
+            <p class="bold-text p-10"> Border radius properties</p>
+            <ul class="box b-0 p-10">
+                <li class="mb-5">Border radius - <code>br-[1 to 5]</code> </li>
+                <li class="mb-5">Border round - <code>b-round</code> </li>
+            </ul>
+        </div>
+
+    </div>
+    <footer>
+        <div class="containter black p-10 mt-10 center">
+            The FrAmE ® <a href="https://github.com/zlayabekrija" target="_blank">Zlatan</a> & <a href="https://github.com/inhaq" target="_blank">Inzi</a> - 2018
+        </div>
+    </footer>
+</body>
+
+</html>
